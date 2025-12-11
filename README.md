@@ -7,3 +7,14 @@ Simulate a security engineering project for a fintech platform, focusing on API 
 ## Documentation
 
 [View Output in project_output.txt](project_output.txt)
+
+
+
+# Phase 1: API Vulnerability Exploitation Lab
+
+## Objective
+Set up a vulnerable Flask fintech API and exploit hardcoded API credentials to gain unauthorized access. All actions follow a strict command‑output workflow.
+
+## Steps & Evidence
+All commands and outputs are documented here:  
+[View Output in phase1_output.txt]
