@@ -42,20 +42,6 @@ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 To https://github.com/Ohdele/wave-fintech-security.git
    6250064..336cebd  main -> main
 
-[16:19:06] dele@kali:~/wave-fintech-security$ git commit -m "Fix: Markdown link syntax for output file"
-[main 6d5e4e6] Fix: Markdown link syntax for output file
- 1 file changed, 3 insertions(+), 1 deletion(-)
-
-[16:19:30] dele@kali:~/wave-fintech-security$ git push
-Enumerating objects: 5, done.
-Counting objects: 100% (5/5), done.
-Delta compression using up to 2 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 370 bytes | 370.00 KiB/s, done.
-Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
-To https://github.com/Ohdele/wave-fintech-security.git
-   336cebd..6d5e4e6  main -> main
-
 [16:22:57] dele@kali:~/wave-fintech-security$ exit
 exit
 
