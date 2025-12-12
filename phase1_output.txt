@@ -7,6 +7,18 @@
 [19:06:09] dele@kali:~/wave-fintech-security$ ip a
 
 [19:06:36] dele@kali:~/wave-fintech-security$ ssh -p <port> dele@<target_host>
+The authenticity of host '<target_host>:<port>' can't be established.
+ED25519 key fingerprint is <hidden_fingerprint>.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '<target_host>:<port>' to the list of known hosts.
+dele@<target_host>'s password: <hidden>
+Welcome to Ubuntu 22.04.5 LTS
+Last login: <hidden>
+Welcome, dele!
+[19:08:45] dele@ubuntu:~$ exit
+logout
+Connection to <target_host> closed.
+
 [19:34:11] dele@kali:~/wave-fintech-security$ scp -P <port> app.py dele@<target_host>:/home/dele/
 
 [19:34:53] dele@kali:~/wave-fintech-security$ curl -i <target_host>:5000/api/v1/auth \
